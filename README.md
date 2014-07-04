@@ -2,4 +2,4 @@
 
 ## Installation
 
-  cake schema create --plugin Users
+    cake schema create --plugin Users
