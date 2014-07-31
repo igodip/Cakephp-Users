@@ -18,7 +18,7 @@ Modify the AppController.php file.
         parent::beforeFilter();
 		
 		if (isset($this->params['prefix']) && $this->params['prefix'] == 'admin') {
-			$this->Auth->allow();
+			$this->Auth->deny();
         }else{
         	$this->Auth->allow();
         }
