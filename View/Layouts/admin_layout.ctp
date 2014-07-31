@@ -16,7 +16,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'Ranchbrionna: Pannello di amministrazione');
+$cakeDescription = __d('cake_dev', 'ISafini: Pannello di amministrazione');
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,7 +41,7 @@ $cakeDescription = __d('cake_dev', 'Ranchbrionna: Pannello di amministrazione');
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, array('controller' => 'panel','action' => 'index')); ?></h1>
+			<h1><?php echo $this->Html->link($cakeDescription, array('plugin' => 'users','controller' => 'panel','action' => 'index')); ?></h1>
 		</div>
 		<div id="content">
 

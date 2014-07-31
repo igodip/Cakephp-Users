@@ -20,4 +20,7 @@
  * @since         CakePHP(tm) v 0.2.9
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
+Router::connect(
+    '/admin/panel', array('plugin' =>'users','controller' => 'panel','action' =>'index','admin' => true)
+);
  
